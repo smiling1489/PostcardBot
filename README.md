@@ -6,8 +6,11 @@
 ```
 git clone https://github.com/smiling1489/PostcardBot.git
 cd PostcardBot
-pip install requirements.txt
-python -m PB
 ```
 1. Переименуйте файл `.env.example` в `.env`
 2. Отредактируйте файл `.env`, добавив API_ID и API_HASH (достать можно с [сайта](my.telegram.org))
+3. Выполните следующие команды:
+```
+pip install requirements.txt
+python -m PB
+```
